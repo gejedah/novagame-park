@@ -152,7 +152,7 @@ func processCommand(command string, parkingLot *ParkingLot) {
 		} else {
 			fmt.Println("Usage: create_parking_lot {capacity}")
 		}
-	case "park":;;
+	case "park":
 		if len(parts) > 1 {
 			parkingLot.ParkCar(parts[1])
 		} else {
